@@ -3,8 +3,22 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
-
-
+/*
+- Set eventlistener to check class (if...else) for full or empty heart
+ 
+- Set eventlistener for click on empty heart
+  - 
+  - respond to error using .catch() 
+    - make function ro remove hidden class from error modal
+    - Send server error message to the <p> of the error modal
+    - use setTimeout(*, 3000) to keep modal visible
+  - respond to success on click of empty heart
+    - Change the heart to a full heart
+    - add the .activated-heart class to heart
+- Set Eventlistener on click of full heart
+    - Change the heart back to empty
+    - Remove .activated-heart class   
+*/
 
 
 //------------------------------------------------------------------------------
